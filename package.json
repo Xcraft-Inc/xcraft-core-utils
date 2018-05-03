@@ -26,6 +26,8 @@
     "escape-regex": "^1.0.7",
     "escape-string-regexp": "^1.0.5",
     "js-yaml": "^3.9.0",
+    "locks": "^0.2.2",
+    "watt": "^3.3.0",
     "xcraft-core-fs": "^1.0.1"
   },
   "bugs": {

@@ -3,6 +3,7 @@
 exports.batch = require('./lib/batch.js');
 exports.crypto = require('./lib/crypto.js');
 exports.json = require('./lib/json.js');
+exports.locks = require('./lib/locks.js');
 exports.log = require('./lib/log.js');
 exports.os = require('./lib/os.js');
 exports.reflect = require('./lib/reflect.js');
