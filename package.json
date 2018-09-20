@@ -22,7 +22,6 @@
   "license": "MIT",
   "dependencies": {
     "ansi-regex": "^2.1.1",
-    "better-sqlite3": "^4.1.4",
     "cli-color": "^1.2.0",
     "escape-regex": "^1.0.7",
     "escape-string-regexp": "^1.0.5",
@@ -30,6 +29,9 @@
     "locks": "^0.2.2",
     "watt": "^3.3.0",
     "xcraft-core-fs": "^1.0.1"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^4.1.4"
   },
   "bugs": {
     "url": "https://github.com/Xcraft-Inc/xcraft-core-utils/issues"
