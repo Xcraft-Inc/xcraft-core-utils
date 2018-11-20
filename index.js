@@ -12,3 +12,5 @@ exports.reflect = require('./lib/reflect.js');
 exports.regex = require('./lib/regex.js');
 exports.string = require('./lib/string.js');
 exports.yaml = require('./lib/yaml.js');
+
+exports.RankedCache = require('./lib/ranked-cache.js');

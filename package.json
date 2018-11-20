@@ -28,6 +28,7 @@
     "figlet": "^1.2.1",
     "gigawatts": "^4.0.1",
     "js-yaml": "^3.9.0",
+    "linked-list": "^1.0.4",
     "locks": "^0.2.2",
     "xcraft-core-fs": "^1.0.1"
   },
