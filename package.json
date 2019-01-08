@@ -33,7 +33,7 @@
     "xcraft-core-fs": "^1.0.1"
   },
   "optionalDependencies": {
-    "better-sqlite3": "^4.1.4"
+    "better-sqlite3": "^5.2.1"
   },
   "bugs": {
     "url": "https://github.com/Xcraft-Inc/xcraft-core-utils/issues"
