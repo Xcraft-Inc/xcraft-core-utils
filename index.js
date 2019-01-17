@@ -6,6 +6,7 @@ exports.js = require('./lib/js.js');
 exports.json = require('./lib/json.js');
 exports.locks = require('./lib/locks.js');
 exports.log = require('./lib/log.js');
+exports.modules = require('./lib/modules.js');
 exports.os = require('./lib/os.js');
 exports.reflect = require('./lib/reflect.js');
 exports.regex = require('./lib/regex.js');
