@@ -15,3 +15,4 @@ exports.yaml = require('./lib/yaml.js');
 
 exports.SQLite = require('./lib/sqlite.js');
 exports.RankedCache = require('./lib/ranked-cache.js');
+exports.JobQueue = require('./lib/job-queue.js');
