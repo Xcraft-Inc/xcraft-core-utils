@@ -30,6 +30,7 @@
     "js-yaml": "^3.9.0",
     "linked-list": "^1.0.4",
     "locks": "^0.2.2",
+    "uuid": "^3.3.2",
     "xcraft-core-fs": "^1.0.1"
   },
   "optionalDependencies": {
@@ -40,7 +41,7 @@
   },
   "homepage": "https://github.com/Xcraft-Inc/xcraft-core-utils#readme",
   "devDependencies": {
-    "xcraft-dev-rules": "^0.3.0",
-    "prettier": "1.15.1"
+    "xcraft-dev-rules": "^0.4.0",
+    "prettier": "1.16.4"
   }
 }
