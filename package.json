@@ -30,6 +30,7 @@
     "js-yaml": "^3.9.0",
     "linked-list": "^1.0.4",
     "locks": "^0.2.2",
+    "prop-types": "^15.7.2",
     "uuid": "^3.3.2",
     "xcraft-core-fs": "^2.0.0"
   },
