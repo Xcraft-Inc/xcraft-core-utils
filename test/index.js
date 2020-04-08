@@ -3,8 +3,8 @@
 var should = require('should'); /* jshint ignore:line */
 var xUtils = require('../index.js');
 
-describe('xcraft-core-utils', function() {
-  describe('#string#camelcasify ()', function() {
+describe('xcraft-core-utils', function () {
+  describe('#string#camelcasify ()', function () {
     var topics = [
       {
         in: '',
@@ -28,14 +28,14 @@ describe('xcraft-core-utils', function() {
       },
     ];
 
-    topics.forEach(function(item) {
-      it('camelcasify ' + item.in, function() {
+    topics.forEach(function (item) {
+      it('camelcasify ' + item.in, function () {
         xUtils.string.camelcasify(item.in).should.be.equal(item.out);
       });
     });
   });
 
-  describe('#string#capitalize ()', function() {
+  describe('#string#capitalize ()', function () {
     var strings = [
       {
         in: '',
@@ -59,8 +59,8 @@ describe('xcraft-core-utils', function() {
       },
     ];
 
-    strings.forEach(function(str) {
-      it('capitalize ' + str.in, function() {
+    strings.forEach(function (str) {
+      it('capitalize ' + str.in, function () {
         xUtils.string.capitalize(str.in).should.be.equal(str.out);
       });
     });
