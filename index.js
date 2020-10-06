@@ -22,3 +22,4 @@ exports.SQLite = require('./lib/sqlite.js');
 exports.RankedCache = require('./lib/ranked-cache.js');
 exports.JobQueue = require('./lib/job-queue.js');
 exports.PersistantJobQueue = require('./lib/persistant-job-queue.js');
+exports.CursorPump = require('./lib/cursorPump.js');
