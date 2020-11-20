@@ -23,7 +23,7 @@
   "dependencies": {
     "ansi-regex": "^2.1.1",
     "cli-color": "^1.2.0",
-    "escape-regex": "^1.0.7",
+    "escape-regexp": "^0.0.1",
     "escape-string-regexp": "^1.0.5",
     "figlet": "^1.2.1",
     "gigawatts": "^4.0.1",
