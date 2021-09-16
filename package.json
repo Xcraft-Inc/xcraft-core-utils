@@ -35,9 +35,6 @@
     "uuid": "^8.3.2",
     "xcraft-core-fs": "^2.0.0"
   },
-  "optionalDependencies": {
-    "better-sqlite3": "^7.1.1"
-  },
   "bugs": {
     "url": "https://github.com/Xcraft-Inc/xcraft-core-utils/issues"
   },
