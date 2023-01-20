@@ -1,6 +1,6 @@
 {
   "name": "xcraft-core-utils",
-  "version": "4.5.0",
+  "version": "4.6.0",
   "description": "Xcraft utils",
   "main": "index.js",
   "engines": {
