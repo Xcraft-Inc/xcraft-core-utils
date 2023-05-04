@@ -3,8 +3,8 @@
 var should = require('should'); /* jshint ignore:line */
 var xUtils = require('../index.js');
 
-describe('xcraft-core-utils', function () {
-  describe('#string#camelcasify ()', function () {
+describe('xcraft.utils', function () {
+  describe('string camelcasify', function () {
     var topics = [
       {
         in: '',
@@ -35,7 +35,7 @@ describe('xcraft-core-utils', function () {
     });
   });
 
-  describe('#string#capitalize ()', function () {
+  describe('string capitalize', function () {
     var strings = [
       {
         in: '',
