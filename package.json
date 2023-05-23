@@ -21,7 +21,7 @@
   "author": "Mathieu Schroeter",
   "license": "MIT",
   "dependencies": {
-    "ansi-regex": "^2.1.1",
+    "ansi-regex": "^5.0.1",
     "cli-color": "^1.2.0",
     "escape-regexp": "0.0.1",
     "escape-string-regexp": "^1.0.5",
