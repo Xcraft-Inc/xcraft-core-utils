@@ -1,6 +1,6 @@
 'use strict';
 
-var should = require('should'); /* jshint ignore:line */
+const {expect} = require('chai');
 var xUtils = require('../index.js');
 
 describe('xcraft.utils', function () {
@@ -30,7 +30,7 @@ describe('xcraft.utils', function () {
 
     topics.forEach(function (item) {
       it('camelcasify ' + item.in, function () {
-        xUtils.string.camelcasify(item.in).should.be.equal(item.out);
+        expect(xUtils.string.camelcasify(item.in)).to.be.equal(item.out);
       });
     });
   });
@@ -61,7 +61,7 @@ describe('xcraft.utils', function () {
 
     strings.forEach(function (str) {
       it('capitalize ' + str.in, function () {
-        xUtils.string.capitalize(str.in).should.be.equal(str.out);
+        expect(xUtils.string.capitalize(str.in)).to.be.equal(str.out);
       });
     });
   });
