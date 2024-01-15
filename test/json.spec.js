@@ -3,7 +3,7 @@
 const {expect} = require('chai');
 const {dotKeysToObject} = require('../lib/json.js');
 
-describe('xcraft.utils.json', function () {
+describe('xcraft.utils', function () {
   describe('json', function () {
     it('dotKeysToObject', function () {
       const input = {
