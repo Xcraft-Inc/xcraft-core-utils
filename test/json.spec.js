@@ -3,31 +3,29 @@
 const {expect} = require('chai');
 const {dotKeysToObject} = require('../lib/json.js');
 
-describe('xcraft.utils', function () {
-  describe('json', function () {
-    it('dotKeysToObject', function () {
-      const input = {
-        ['le.chevalier.Bragon']: {
-          ['formé.par.le.Rige']: {
-            ['et.Mara.la.mère.de']: 'Pélisse',
-          },
+describe('xcraft.utils.json', function () {
+  it('dotKeysToObject', function () {
+    const input = {
+      ['le.chevalier.Bragon']: {
+        ['formé.par.le.Rige']: {
+          ['et.Mara.la.mère.de']: 'Pélisse',
         },
-      };
+      },
+    };
 
-      const output = {
-        le: {
-          chevalier: {
-            Bragon: {
-              formé: {
-                par: {
-                  le: {
-                    Rige: {
-                      et: {
-                        Mara: {
-                          la: {
-                            mère: {
-                              de: 'Pélisse',
-                            },
+    const output = {
+      le: {
+        chevalier: {
+          Bragon: {
+            formé: {
+              par: {
+                le: {
+                  Rige: {
+                    et: {
+                      Mara: {
+                        la: {
+                          mère: {
+                            de: 'Pélisse',
                           },
                         },
                       },
@@ -38,10 +36,10 @@ describe('xcraft.utils', function () {
             },
           },
         },
-      };
+      },
+    };
 
-      const result = dotKeysToObject(input);
-      expect(result).to.be.eql(output);
-    });
+    const result = dotKeysToObject(input);
+    expect(result).to.be.eql(output);
   });
 });

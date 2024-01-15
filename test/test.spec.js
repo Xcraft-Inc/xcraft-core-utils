@@ -3,8 +3,8 @@
 const {expect} = require('chai');
 var xUtils = require('../index.js');
 
-describe('xcraft.utils', function () {
-  describe('string camelcasify', function () {
+describe('xcraft.utils.string', function () {
+  describe('camelcasify', function () {
     var topics = [
       {
         in: '',
@@ -35,7 +35,7 @@ describe('xcraft.utils', function () {
     });
   });
 
-  describe('string capitalize', function () {
+  describe('capitalize', function () {
     var strings = [
       {
         in: '',
