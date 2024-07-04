@@ -34,11 +34,11 @@
     "locks": "^0.2.2",
     "@npcz/magic": "^1.3.16",
     "prop-types": "^15.7.2",
-    "traverse": "^0.6.8",
     "uuid": "^8.3.2",
     "xcraft-core-busclient": "^5.0.0",
     "xcraft-core-fs": "^2.0.0",
-    "xcraft-core-log": "^2.0.0"
+    "xcraft-core-log": "^2.0.0",
+    "xcraft-traverse": "^0.7.0"
   },
   "bugs": {
     "url": "https://github.com/Xcraft-Inc/xcraft-core-utils/issues"
