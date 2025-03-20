@@ -1,7 +1,7 @@
 'use strict';
 
 const {expect} = require('chai');
-const {computeHash} = require('../lib/utils/hash.js');
+const {computeHash} = require('../lib/hash.js');
 
 describe('goblin.yennefer.hash', function () {
   it('string', function () {
