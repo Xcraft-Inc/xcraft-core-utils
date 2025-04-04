@@ -22,7 +22,6 @@
   "license": "MIT",
   "dependencies": {
     "ansi-regex": "^5.0.1",
-    "cli-color": "^1.2.0",
     "escape-regexp": "0.0.1",
     "escape-string-regexp": "^1.0.5",
     "figlet": "^1.2.1",
@@ -35,6 +34,7 @@
     "lodash": "^4.17.20",
     "locks": "^0.2.2",
     "@npcz/magic": "^1.3.16",
+    "picocolors": "^1.1.1",
     "prop-types": "^15.7.2",
     "uuid": "^8.3.2",
     "xcraft-core-busclient": "^5.0.0",
