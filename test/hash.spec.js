@@ -3,7 +3,7 @@
 const {expect} = require('chai');
 const {computeHash} = require('../lib/hash.js');
 
-describe('goblin.yennefer.hash', function () {
+describe('xcraft.utils.hash', function () {
   it('string', function () {
     const objL = {string: 'Roger'};
     const objR = {string: 'Wilco'};
