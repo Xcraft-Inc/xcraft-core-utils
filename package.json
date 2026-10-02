@@ -48,6 +48,7 @@
     "xcraft-core-busclient": "^5.0.0",
     "xcraft-core-fs": "^2.0.0",
     "xcraft-core-log": "^2.2.0",
+    "xcraft-core-stones": "^0.4.21",
     "xcraft-traverse": "^0.7.0",
     "@zip.js/zip.js": "^2.7.45"
   },
